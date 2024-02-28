@@ -25,3 +25,7 @@
             return true;
         }
 //nice
+ if (!cart.HasItems)
+            {
+                return RedirectToRoute("ShoppingCart");
+            }
